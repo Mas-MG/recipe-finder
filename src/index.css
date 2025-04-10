@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base{
+  .text-red{
+   @apply text-red-700 text-amber-300
+  }
+}
