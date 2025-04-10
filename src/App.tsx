@@ -1,7 +1,12 @@
+import Searchbar from "./components/Searchbar";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="!text-2xl font-bold underline text-red">Hello world!</h1>
+    <div className="main-layer">
+      <div className="container">
+        <h1 className="container-title">Recipe Finder</h1>
+        <Searchbar/>
+      </div>
     </div>
   );
 };
