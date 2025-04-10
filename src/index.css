@@ -1,7 +1,17 @@
 @import "tailwindcss";
 
-@layer base{
-  .text-red{
-   @apply text-red-700 text-amber-300
+
+@theme{
+  --color-primary:#1F4529;
+  --color-secondary:#47663B;
+  --color-third:#EED3B1;
+  --color-basic:#E8ECD7;
+}
+
+
+@layer base {
+  .text-red {
+    @apply text-third;
   }
 }
+
